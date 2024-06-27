@@ -4,29 +4,181 @@
 }
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*background: linear-gradient(43deg, rgba(194, 86, 200, 0.295),rgb(147,120,184),rgb(124,214,192),rgb(176,123,215),rgb(197,83,199));*/
+    background: #c1dddb;
+    background-image: url(../imgs/background.svg);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 2560px 40%;
+}
+h1,h2,h3,h4,footer{
+    font-family: "Nunito", sans-serif;
+}
+/* Menu superior */
+nav{
+    background: #75c6c7;
+    border-top: 5px solid #ca287a;
+    box-shadow: 0px 6px 14px -1px #8f8f8f;
+}
+nav ul {
+    list-style-type: none;
+    padding: 10px 0;
+    text-align: center;
+}
 
+nav li{
+    font-family: "Nunito", sans-serif;
+    display: inline-block;
+    padding: 4px 2px;
+}
+
+nav li a{
+    border: 1px solid #e875a8;
+    background-color: #e875a8;
+    color: #fff;
+    border-radius: 5px;
+    padding: 2px 4px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-wrap:nowrap;
+    box-shadow: 0 1px 4px 0 #8f8f8f;
+}
+nav li a:hover{
+    border: 1px solid #ff3c8f;
+    background-color: #ff3c8f;
+}
+/* Cabezal */
+header{
+    height: 350px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    box-shadow: 0 6px 10px -1px rgba(118, 117, 116, 0.52);
+}
+header.bahia_tutifruti{
+    background-image: url(../imgs/bahiatutifruti.png);
+    }
+header.valle_biberon{
+    background-image: url(../imgs/vallebiberon_bg.png);
+}
+header.montana_fantasy{
+    background-image: url(../imgs/montana_fantasy.png);
+}
+header.bosque_algodon{
+    background-image: url(../imgs/bosquealgodon_bg.jpg);
+}
+header.storyland{
+    background-image: url(../imgs/storyland-bg.jpg);
+}
+header h1{
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 900;
+    color: #fff;
+    text-shadow: #61b3c3 5px 0px 0px, #61b3c3 4.90033px 0.993347px 0px, #61b3c3 4.60531px 1.94709px 0px, #61b3c3 4.12668px 2.82321px 0px, #61b3c3 3.48353px 3.58678px 0px, #61b3c3 2.70151px 4.20736px 0px, #61b3c3 1.81179px 4.6602px 0px, #61b3c3 0.849836px 4.92725px 0px, #61b3c3 -0.145998px 4.99787px 0px, #61b3c3 -1.13601px 4.86924px 0px, #61b3c3 -2.08073px 4.54649px 0px, #61b3c3 -2.94251px 4.04248px 0px, #61b3c3 -3.68697px 3.37732px 0px, #61b3c3 -4.28444px 2.57751px 0px, #61b3c3 -4.71111px 1.67494px 0px, #61b3c3 -4.94996px 0.7056px 0px, #61b3c3 -4.99147px -0.291871px 0px, #61b3c3 -4.83399px -1.27771px 0px, #61b3c3 -4.48379px -2.2126px 0px, #61b3c3 -3.95484px -3.05929px 0px, #61b3c3 -3.26822px -3.78401px 0px, #61b3c3 -2.4513px -4.35788px 0px, #61b3c3 -1.53666px -4.75801px 0px, #61b3c3 -0.560763px -4.96845px 0px, #61b3c3 0.437495px -4.98082px 0px, #61b3c3 1.41831px -4.79462px 0px, #61b3c3 2.34258px -4.41727px 0px, #61b3c3 3.17346px -3.86382px 0px, #61b3c3 3.87783px -3.15633px 0px, #61b3c3 4.4276px -2.32301px 0px, #61b3c3 4.80085px -1.39708px 0px, #61b3c3 4.98271px -0.415447px 0px;
+}
+header h3{
+    font-size: 20px;
+    font-weight: 800;
+    color: #fff;
 }
 .logo{
-    width: 309px;
+    display: block;
+    text-align:center;
 }
-header div{
-    background-image: url(../imgs/vallebiberon-bg.jpg);
-    padding: 20px;
+.logo img{
+    width: 250px;
 }
-header nav ul {
-    list-style-type: none;
+/* Contenido */
+
+.contenido h2{
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+}
+.contenido, .personajes{
     padding: 20px;
 }
 
-header nav li{
-    display: inline;
+.contenido p{
+    font-size: 16px;
+    margin: 5px 0;
 }
-header nav li a{
-    border: 2px solid #000;
-    background-color: #000;
+/* Personajes */
+.personajes h2{
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.personajes ul{
+    width: 90%;
+    margin: 0 auto;
+}
+.lista_personajes li{
+    display: inline-block;
+    width: 28%;
+    margin: 0 2%;
+    text-align: center;
+}
+.lista_personajes li img{
+    display: block;
+    margin: 0 auto;
+    max-width: 250px;
+}
+/* Solucionando imagenes de personajes*/
+#dotie {
+    max-width: 220px;
+}
+#caperucita{
+    max-width: 200px;
+}
+#lady{
+    max-width: 155px;
+}
+#conie, #fancy{
+    max-width: 182px;
+}
+#dreamy{
+    max-width: 170px;
+}
+#rosie{
+    max-width: 190px;
+}
+#jiry{
+    max-width: 230px;
+}
+#cerdito{
+    max-width: 210px;
+}
+#perrita{
+    max-width: 205px;
+}
+/* Contenido de los personajes */
+.lista_personajes li h4{
+    text-align:center;
+    font-size: 150%;
+    margin-top: 10px;
+    font-weight: 900;
+    text-shadow: #e875a8  5px 0px 0px, #e875a8  4.90033px 0.993347px 0px, #e875a8  4.60531px 1.94709px 0px, #e875a8  4.12668px 2.82321px 0px, #e875a8  3.48353px 3.58678px 0px, #e875a8  2.70151px 4.20736px 0px, #e875a8  1.81179px 4.6602px 0px, #e875a8  0.849836px 4.92725px 0px, #e875a8  -0.145998px 4.99787px 0px, #e875a8  -1.13601px 4.86924px 0px, #e875a8  -2.08073px 4.54649px 0px, #e875a8  -2.94251px 4.04248px 0px, #e875a8  -3.68697px 3.37732px 0px, #e875a8  -4.28444px 2.57751px 0px, #e875a8  -4.71111px 1.67494px 0px, #e875a8  -4.94996px 0.7056px 0px, #e875a8  -4.99147px -0.291871px 0px, #e875a8  -4.83399px -1.27771px 0px, #e875a8  -4.48379px -2.2126px 0px, #e875a8  -3.95484px -3.05929px 0px, #e875a8  -3.26822px -3.78401px 0px, #e875a8  -2.4513px -4.35788px 0px, #e875a8  -1.53666px -4.75801px 0px, #e875a8  -0.560763px -4.96845px 0px, #e875a8  0.437495px -4.98082px 0px, #e875a8  1.41831px -4.79462px 0px, #e875a8  2.34258px -4.41727px 0px, #e875a8  3.17346px -3.86382px 0px, #e875a8  3.87783px -3.15633px 0px, #e875a8  4.4276px -2.32301px 0px, #e875a8  4.80085px -1.39708px 0px, #e875a8  4.98271px -0.415447px 0px;
     color: #fff;
-    border-radius: 3px;
-    padding: 10px;
-    font-size: 1rem;
-    text-decoration: none;
+}
+.lista_personajes li p{
+    text-align:justify;
+    margin-top: 10px;
+}
+/* Pie de pagina */
+footer{
+    border-top: 13px solid #ff3c8f;
+    background: rgb(232, 177, 204);
+    background-image: url(../imgs/lagrimas.png), linear-gradient(0deg, rgba(232, 177, 204, 1) 0%, rgba(238, 198, 219, 1) 100%);
+    background-size: 75px;
+    margin-top: 60px;
+    height: 50px;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 18px;
+    font-weight: 800;
 }
