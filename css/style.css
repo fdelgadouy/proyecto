@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.logo{
+    width: 309px;
+}
+header div{
+    background-image: url(../imgs/vallebiberon-bg.jpg);
+    padding: 20px;
+}
+header nav ul {
+    list-style-type: none;
+    padding: 20px;
+}
+
+header nav li{
+    display: inline;
+}
+header nav li a{
+    border: 2px solid #000;
+    background-color: #000;
+    color: #fff;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 1rem;
+    text-decoration: none;
+}
