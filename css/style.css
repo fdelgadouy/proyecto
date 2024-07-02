@@ -1,8 +1,9 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-body{
+
+body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /*background: linear-gradient(43deg, rgba(194, 86, 200, 0.295),rgb(147,120,184),rgb(124,214,192),rgb(176,123,215),rgb(197,83,199));*/
     background: #c1dddb;
@@ -11,12 +12,18 @@ body{
     background-repeat: repeat-x;
     background-size: 2560px 45%;
 }
-h1,h2,h3,h4,footer{
+
+h1,
+h2,
+h3,
+h4,
+footer {
     font-family: "Nunito", sans-serif;
 }
+
 /* Menu superior */
 
-.menu-mundos a{
+.menu-mundos a {
     margin: 5px;
     border: 1px solid #e875a8;
     background-color: #e875a8;
@@ -26,120 +33,152 @@ h1,h2,h3,h4,footer{
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
-    text-wrap:nowrap;
+    text-wrap: nowrap;
     box-shadow: 0 1px 4px 0 #8f8f8f;
 }
-button.menu-mundos{
+
+button.menu-mundos {
     border: 1px solid #e875a8;
     background-color: #e875a8;
     box-shadow: none;
 }
-button.menu-mundos:focus{
+
+button.menu-mundos:focus {
     border: 0;
     box-shadow: 1px 0 4px 0 #8f8f8f;
 }
+
 /* Cabezal */
-header{
+header {
     background-size: cover;
     padding: 20px;
     box-shadow: 0 6px 10px -1px rgba(118, 117, 116, 0.52);
 }
-header.bahia_tutifruti{
+
+header.bahia_tutifruti {
     background-image: url(../imgs/bahiatutifruti.png);
     background-position: 50% 80%;
 }
-header.valle_biberon{
+
+header.valle_biberon {
     background-image: url(../imgs/vallebiberon_bg.png);
     background-position: 50%;
 }
-header.montana_fantasy{
+
+header.montana_fantasy {
     background-image: url(../imgs/montana_fantasy.png);
     background-position: 50% 80%;
 }
-header.bosque_algodon{
+
+header.bosque_algodon {
     background-image: url(../imgs/bosquealgodon_bg.jpg);
     background-position: 50% 20%;
 }
-header.storyland{
+
+header.storyland {
     background-image: url(../imgs/storyland-bg.jpg);
     background-position: 50% 20%;
 }
-header h1{
+
+header h1 {
     margin-top: 50px;
     font-size: 40px;
     font-weight: 900;
     color: #fff;
     text-shadow: #61b3c3 5px 0px 0px, #61b3c3 4.90033px 0.993347px 0px, #61b3c3 4.60531px 1.94709px 0px, #61b3c3 4.12668px 2.82321px 0px, #61b3c3 3.48353px 3.58678px 0px, #61b3c3 2.70151px 4.20736px 0px, #61b3c3 1.81179px 4.6602px 0px, #61b3c3 0.849836px 4.92725px 0px, #61b3c3 -0.145998px 4.99787px 0px, #61b3c3 -1.13601px 4.86924px 0px, #61b3c3 -2.08073px 4.54649px 0px, #61b3c3 -2.94251px 4.04248px 0px, #61b3c3 -3.68697px 3.37732px 0px, #61b3c3 -4.28444px 2.57751px 0px, #61b3c3 -4.71111px 1.67494px 0px, #61b3c3 -4.94996px 0.7056px 0px, #61b3c3 -4.99147px -0.291871px 0px, #61b3c3 -4.83399px -1.27771px 0px, #61b3c3 -4.48379px -2.2126px 0px, #61b3c3 -3.95484px -3.05929px 0px, #61b3c3 -3.26822px -3.78401px 0px, #61b3c3 -2.4513px -4.35788px 0px, #61b3c3 -1.53666px -4.75801px 0px, #61b3c3 -0.560763px -4.96845px 0px, #61b3c3 0.437495px -4.98082px 0px, #61b3c3 1.41831px -4.79462px 0px, #61b3c3 2.34258px -4.41727px 0px, #61b3c3 3.17346px -3.86382px 0px, #61b3c3 3.87783px -3.15633px 0px, #61b3c3 4.4276px -2.32301px 0px, #61b3c3 4.80085px -1.39708px 0px, #61b3c3 4.98271px -0.415447px 0px;
 }
-header h3{
+
+header h3 {
     font-size: 20px;
     font-weight: 800;
     color: #fff;
 }
-.logo{
+
+.logo {
     display: block;
-    text-align:center;
+    text-align: center;
 }
-.logo img{
+
+.logo img {
     width: 250px;
 }
+
 /* Contenido */
 
-.contenido h2{
+.contenido h2 {
     font-size: 32px;
     font-weight: 800;
     text-transform: uppercase;
 }
 
 /* Personajes */
-.personajes .card{
+.personajes .card {
     background-color: transparent;
     border: 0;
 }
-.card-img-personaje{
+
+.card-img-personaje {
     min-height: 340px;
 }
-.personajes h2{
+
+.personajes h2 {
     font-size: 28px;
     font-weight: 900;
     margin-bottom: 30px;
 }
+
 /* Solucionando imagenes de personajes*/
-#dotie, #glam, #lem {
+#dotie,
+#glam,
+#lem {
     max-width: 220px;
 }
-#lady{
+
+#lady {
     max-width: 155px;
 }
-#conie{
+
+#conie {
     max-width: 182px;
 }
-#dreamy, #fancy{
+
+#dreamy,
+#fancy {
     max-width: 170px;
 }
-#rosie{
+
+#rosie {
     max-width: 185px;
 }
-#tina, #cerdito,#caperucita {
+
+#tina,
+#cerdito,
+#caperucita {
     max-width: 250px;
 }
-#jiry, #lala{
+
+#jiry,
+#lala {
     max-width: 230px;
 }
-#alice, #ella{
+
+#alice,
+#ella {
     max-width: 205px;
 }
+
 /* Contenido de los personajes */
-.card-body h4{
-    text-align:center;
+.card-body h4 {
+    text-align: center;
     font-size: 150%;
     margin-top: 10px;
     font-weight: 900;
-    text-shadow: #e875a8  5px 0px 0px, #e875a8  4.90033px 0.993347px 0px, #e875a8  4.60531px 1.94709px 0px, #e875a8  4.12668px 2.82321px 0px, #e875a8  3.48353px 3.58678px 0px, #e875a8  2.70151px 4.20736px 0px, #e875a8  1.81179px 4.6602px 0px, #e875a8  0.849836px 4.92725px 0px, #e875a8  -0.145998px 4.99787px 0px, #e875a8  -1.13601px 4.86924px 0px, #e875a8  -2.08073px 4.54649px 0px, #e875a8  -2.94251px 4.04248px 0px, #e875a8  -3.68697px 3.37732px 0px, #e875a8  -4.28444px 2.57751px 0px, #e875a8  -4.71111px 1.67494px 0px, #e875a8  -4.94996px 0.7056px 0px, #e875a8  -4.99147px -0.291871px 0px, #e875a8  -4.83399px -1.27771px 0px, #e875a8  -4.48379px -2.2126px 0px, #e875a8  -3.95484px -3.05929px 0px, #e875a8  -3.26822px -3.78401px 0px, #e875a8  -2.4513px -4.35788px 0px, #e875a8  -1.53666px -4.75801px 0px, #e875a8  -0.560763px -4.96845px 0px, #e875a8  0.437495px -4.98082px 0px, #e875a8  1.41831px -4.79462px 0px, #e875a8  2.34258px -4.41727px 0px, #e875a8  3.17346px -3.86382px 0px, #e875a8  3.87783px -3.15633px 0px, #e875a8  4.4276px -2.32301px 0px, #e875a8  4.80085px -1.39708px 0px, #e875a8  4.98271px -0.415447px 0px;
+    text-shadow: #e875a8 5px 0px 0px, #e875a8 4.90033px 0.993347px 0px, #e875a8 4.60531px 1.94709px 0px, #e875a8 4.12668px 2.82321px 0px, #e875a8 3.48353px 3.58678px 0px, #e875a8 2.70151px 4.20736px 0px, #e875a8 1.81179px 4.6602px 0px, #e875a8 0.849836px 4.92725px 0px, #e875a8 -0.145998px 4.99787px 0px, #e875a8 -1.13601px 4.86924px 0px, #e875a8 -2.08073px 4.54649px 0px, #e875a8 -2.94251px 4.04248px 0px, #e875a8 -3.68697px 3.37732px 0px, #e875a8 -4.28444px 2.57751px 0px, #e875a8 -4.71111px 1.67494px 0px, #e875a8 -4.94996px 0.7056px 0px, #e875a8 -4.99147px -0.291871px 0px, #e875a8 -4.83399px -1.27771px 0px, #e875a8 -4.48379px -2.2126px 0px, #e875a8 -3.95484px -3.05929px 0px, #e875a8 -3.26822px -3.78401px 0px, #e875a8 -2.4513px -4.35788px 0px, #e875a8 -1.53666px -4.75801px 0px, #e875a8 -0.560763px -4.96845px 0px, #e875a8 0.437495px -4.98082px 0px, #e875a8 1.41831px -4.79462px 0px, #e875a8 2.34258px -4.41727px 0px, #e875a8 3.17346px -3.86382px 0px, #e875a8 3.87783px -3.15633px 0px, #e875a8 4.4276px -2.32301px 0px, #e875a8 4.80085px -1.39708px 0px, #e875a8 4.98271px -0.415447px 0px;
     color: #fff;
 }
+
 /* Pie de pagina */
-footer{
+footer {
     border-top: 13px solid #ff3c8f;
     background: rgb(232, 177, 204);
     background-image: url(../imgs/lagrimas.png), linear-gradient(0deg, rgba(232, 177, 204, 1) 0%, rgba(238, 198, 219, 1) 100%);
