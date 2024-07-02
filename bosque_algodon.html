@@ -1,46 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Bebés Llorones - Bienvenidos a Bahía Biberón</title>
-        <link rel="stylesheet" href="./css/style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
-            rel="stylesheet">
-    </head>
-    <body>
-        <nav>
-            <ul>
-                <li>
-                    <a href="./index.html">Valle Biberón</a>
-                </li>
-                <li>
-                    <a href="./bahia_tutifruti.html">Bahía Tutifruti</a>
-                </li>
-                <li>
-                    <a href="./montana_fantasy.html">Montaña Fantasy</a>
-                </li>
-                <li>
-                    <a href="./bosque_algodon.html">Bosque Algodón</a>
-                </li>
-                <li>
-                    <a href="./storyland.html">Storyland</a>
-                </li>
-            </ul>
-        </nav>
-        <header class="bosque_algodon">
-            <div class="logo">
-                <img src="./imgs/logo.png" alt="Bebe Llorones Logo">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bebés Llorones - Bienvenidos a Valle Biberón</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="menu-mundos navbar navbar-expand-md">
+        <div class="container-fluid">
+            <button class="navbar-toggler menu-mundos" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav menu-mundos mx-auto">
+                    <a class="btn btn-primary" href="./index.html">Valle Biberón</a>
+                    <a class="btn btn-primary" href="./bahia_tutifruti.html">Bahía Tutifruti</a>
+                    <a class="btn btn-primary" href="./montana_fantasy.html">Montaña Fantasy</a>
+                    <a class="btn btn-primary" href="./bosque_algodon.html">Bosque Algodón</a>
+                    <a class="btn btn-primary" href="./storyland.html">Storyland</a>
+                </div>
             </div>
-            <div class="titulos">
-                <h1>Bosque Algodón</h1>
+        </div>
+    </nav>
+    <header class="col bosque_algodon">
+        <div class="row logo">
+            <img src="./imgs/logo.png" alt="Bebe Llorones Logo">
+        </div>
+        <div class="row titulos">
+            <h1>Bosque Algodón</h1>
                 <h3>Un bosque de dulces aventuras!.</h3>
-            </div>
-        </header>
-        <section class="contenido">
+        </div>
+    </header>
+    <main class="contenido">
+        <div class="row">
             <h2>¡Seamos amiguis!</h2>
             <p>
                 Acompáñame por el Bosque Algodón. Aquí, los árboles son tan
@@ -52,43 +55,69 @@
                 para ofrecerte. ¡Te espero con los brazos abiertos para vivir
                 juntos momentos inolvidables!
             </p>
-        </section>
-        <section class="personajes">
+        </div>
+        <section class="row personajes">
             <h2>Los personajes preferidos</h2>
-            <ul class="lista_personajes">
-                <li>
-                    <img id="jiry" src="./imgs/bbll/jirafa.png" alt="Jiri">
-                    <h4>Jiry</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Nam debitis quam labore laudantium quae assumenda
-                        suscipit cumque cupiditate! Saepe laboriosam hic quo est
-                        amet. Iusto explicabo consequatur tenetur repellendus
-                        tempora.</p>
-                </li>
-                <li>
-                    <img id="fancy" src="./imgs/bbll/fancy.png" alt="Fancy">
-                    <h4>Fancy</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Nam debitis quam labore laudantium quae assumenda
-                        suscipit cumque cupiditate! Saepe laboriosam hic quo est
-                        amet. Iusto explicabo consequatur tenetur repellendus
-                        tempora.</p>
-                </li>
-                <li>
-                    <img id="lala" src="./imgs/bbll/lala.png" alt="Lala">
-                    <h4>Lala</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Nam debitis quam labore laudantium quae assumenda
-                        suscipit cumque cupiditate! Saepe laboriosam hic quo est
-                        amet. Iusto explicabo consequatur tenetur repellendus
-                        tempora.</p>
-                </li>
-            </ul>
-        </section>
-        <footer>
-            <p><strong>¡Sumérgete en el mágico mundo de los Bebés Llorones y
-                    vive aventuras inolvidables!</strong></p>
+            <div class="container">
+                <div class="row">
+                    <!-- Ini Dotie -->
+                    <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
+                        <div class="card">
+                            <div class="col-12 container-fluid card-img-personaje">
+                                <img id="jiry" src="./imgs/bbll/jirafa.png" class="mx-auto d-block bottom-0 end-0" alt="Jiri">
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">JIRI</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+                                    debitis quam labore laudantium quae assumenda suscipit cumque cupiditate! Saepe
+                                    laboriosam hic quo est amet. Iusto explicabo consequatur tenetur repellendus
+                                    tempora.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Ini Conie -->
+                    <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
+                        <div class="card">
+                            <div class="col-12 container-fluid card-img-personaje">
+                                <img id="fancy" src="./imgs/bbll/fancy.png" class="mx-auto d-block bottom-0 end-0" alt="Fancy">
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">FANCY</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+                                    debitis quam labore laudantium quae assumenda suscipit cumque cupiditate! Saepe
+                                    laboriosam hic quo est amet. Iusto explicabo consequatur tenetur repellendus
+                                    tempora.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Ini Lady -->
+                    <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
+                        <div class="card">
+                            <div class="col-12 container-fluid card-img-personaje">
+                                <img id="lala" src="./imgs/bbll/lala.png" class="mx-auto d-block" alt="Lala">
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">LALA</h4>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+                                    debitis quam labore laudantium quae assumenda suscipit cumque cupiditate! Saepe
+                                    laboriosam hic quo est amet. Iusto explicabo consequatur tenetur repellendus
+                                    tempora.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-        </footer>
-    </body>
+        </section>
+    </main>
+
+    <footer class="col">
+        <p><strong>¡Sumérgete en el mágico mundo de los Bebés Llorones y
+                vive aventuras inolvidables!</strong></p>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
