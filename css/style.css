@@ -41,24 +41,28 @@ button.menu-mundos:focus{
 /* Cabezal */
 header{
     background-size: cover;
-    background-position: 50% 0;
     padding: 20px;
     box-shadow: 0 6px 10px -1px rgba(118, 117, 116, 0.52);
 }
 header.bahia_tutifruti{
     background-image: url(../imgs/bahiatutifruti.png);
-    }
+    background-position: 50% 80%;
+}
 header.valle_biberon{
     background-image: url(../imgs/vallebiberon_bg.png);
+    background-position: 50%;
 }
 header.montana_fantasy{
     background-image: url(../imgs/montana_fantasy.png);
+    background-position: 50% 80%;
 }
 header.bosque_algodon{
     background-image: url(../imgs/bosquealgodon_bg.jpg);
+    background-position: 50% 20%;
 }
 header.storyland{
     background-image: url(../imgs/storyland-bg.jpg);
+    background-position: 50% 20%;
 }
 header h1{
     margin-top: 50px;
@@ -85,9 +89,6 @@ header h3{
     font-size: 32px;
     font-weight: 800;
     text-transform: uppercase;
-}
-.contenido, .personajes{
-    padding: 20px;
 }
 
 /* Personajes */
