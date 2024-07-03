@@ -45,27 +45,27 @@ header {
 }
 
 header.bahia_tutifruti {
-    background-image: url(../imgs/bahiatutifruti.png);
+    background-image: url("https://res.cloudinary.com/dtzjprlln/image/upload/v1720046743/bghhjfwoicmt9pq5rwhh.png");
     background-position: 50% 80%;
 }
 
 header.valle_biberon {
-    background-image: url(../imgs/vallebiberon_bg.png);
+    background-image: url("https://res.cloudinary.com/dtzjprlln/image/upload/v1720046745/fsajzcmuqxazi5rtfle0.png");
     background-position: 50%;
 }
 
 header.montana_fantasy {
-    background-image: url(../imgs/montana_fantasy.png);
+    background-image: url("https://res.cloudinary.com/dtzjprlln/image/upload/v1720046746/maik4smtpnxxnpu8fkog.png");
     background-position: 50% 80%;
 }
 
 header.bosque_algodon {
-    background-image: url(../imgs/bosquealgodon_bg.jpg);
+    background-image: url("https://res.cloudinary.com/dtzjprlln/image/upload/v1720046742/brnbnrvp5mrc8dllcuzu.jpg");
     background-position: 50% 20%;
 }
 
 header.storyland {
-    background-image: url(../imgs/storyland-bg.jpg);
+    background-image: url("https://res.cloudinary.com/dtzjprlln/image/upload/v1720046743/dssmrfabxpmj8svx0ga1.jpg");
     background-position: 50% 20%;
 }
 
