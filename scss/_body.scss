@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #c1dddb;
+    background-image: url(../imgs/background.svg);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 2560px 45%;
+}
+h1, h2, h3, h4, footer,.menu-mundos {
+    font-family: "Nunito", sans-serif;
+}
+.contenido{
+    h2 {
+        font-size: 32px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+}
+
+    

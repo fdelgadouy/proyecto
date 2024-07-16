@@ -1,0 +1,46 @@
+/* Cabezal */
+
+header {
+    background-size: cover;
+    padding: 20px;
+    box-shadow: 0 6px 10px -1px rgba(118, 117, 116, 0.52);
+    text-align: center;
+    &.bahia_tutifruti {
+        background-image: url("https://res.cloudinary.com/dtzjprlln/image/upload/v1720046743/bghhjfwoicmt9pq5rwhh.png");
+        background-position: 50% 80%;
+    }
+    &.valle_biberon {
+        background-image: url("https://res.cloudinary.com/dtzjprlln/image/upload/v1720046745/fsajzcmuqxazi5rtfle0.png");
+        background-position: 50%;
+    }
+    &.montana_fantasy {
+        background-image: url("https://res.cloudinary.com/dtzjprlln/image/upload/v1720046746/maik4smtpnxxnpu8fkog.png");
+        background-position: 50% 80%;
+    }
+    &.bosque_algodon {
+        background-image: url("https://res.cloudinary.com/dtzjprlln/image/upload/v1720046742/brnbnrvp5mrc8dllcuzu.jpg");
+        background-position: 50% 20%;
+    }
+    &.storyland {
+        background-image: url("https://res.cloudinary.com/dtzjprlln/image/upload/v1720046743/dssmrfabxpmj8svx0ga1.jpg");
+        background-position: 50% 20%;
+    }
+    h1 {
+        margin-top: 50px;
+        font-size: 40px;
+        font-weight: 900;
+        color: #fff;
+        text-shadow: #61b3c3 5px 0px 0px, #61b3c3 4.90033px 0.993347px 0px, #61b3c3 4.60531px 1.94709px 0px, #61b3c3 4.12668px 2.82321px 0px, #61b3c3 3.48353px 3.58678px 0px, #61b3c3 2.70151px 4.20736px 0px, #61b3c3 1.81179px 4.6602px 0px, #61b3c3 0.849836px 4.92725px 0px, #61b3c3 -0.145998px 4.99787px 0px, #61b3c3 -1.13601px 4.86924px 0px, #61b3c3 -2.08073px 4.54649px 0px, #61b3c3 -2.94251px 4.04248px 0px, #61b3c3 -3.68697px 3.37732px 0px, #61b3c3 -4.28444px 2.57751px 0px, #61b3c3 -4.71111px 1.67494px 0px, #61b3c3 -4.94996px 0.7056px 0px, #61b3c3 -4.99147px -0.291871px 0px, #61b3c3 -4.83399px -1.27771px 0px, #61b3c3 -4.48379px -2.2126px 0px, #61b3c3 -3.95484px -3.05929px 0px, #61b3c3 -3.26822px -3.78401px 0px, #61b3c3 -2.4513px -4.35788px 0px, #61b3c3 -1.53666px -4.75801px 0px, #61b3c3 -0.560763px -4.96845px 0px, #61b3c3 0.437495px -4.98082px 0px, #61b3c3 1.41831px -4.79462px 0px, #61b3c3 2.34258px -4.41727px 0px, #61b3c3 3.17346px -3.86382px 0px, #61b3c3 3.87783px -3.15633px 0px, #61b3c3 4.4276px -2.32301px 0px, #61b3c3 4.80085px -1.39708px 0px, #61b3c3 4.98271px -0.415447px 0px;
+    }
+    h3 {
+        font-size: 20px;
+        font-weight: 800;
+        color: #fff;
+    }
+    
+    .logo{
+        img {
+            width: 250px;
+        }
+    } 
+}
