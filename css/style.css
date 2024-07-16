@@ -43,9 +43,26 @@ h1, h2, h3, h4, footer, .menu-mundos {
 /* Cabezal */
 header {
   background-size: cover;
-  padding: 20px;
   box-shadow: 0 6px 10px -1px rgba(118, 117, 116, 0.52);
   text-align: center;
+}
+header .lagrimas-magicas {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0), rgb(255, 255, 255));
+  animation: fadeOut 750ms 1 forwards;
+}
+@keyframes fadeOut {
+  0% {
+    background: radial-gradient(circle, rgba(255, 255, 255, 0), rgb(255, 255, 255));
+  }
+  50% {
+    background: radial-gradient(circle, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5));
+  }
+  100% {
+    background: radial-gradient(circle, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+  }
 }
 header.bahia_tutifruti {
   background-image: url("https://res.cloudinary.com/dtzjprlln/image/upload/v1720046743/bghhjfwoicmt9pq5rwhh.png");
@@ -81,6 +98,10 @@ header h3 {
 }
 header .logo img {
   width: 250px;
+  transition: all 1s;
+}
+header .logo img:hover {
+  transform: scale(1.05);
 }
 
 .personajes .card {

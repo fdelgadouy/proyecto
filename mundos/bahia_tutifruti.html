@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bebés Llorones - Bahía Tutifruti</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,17 +29,19 @@
         </div>
     </nav>
     <header class="col bahia_tutifruti">
-        <div class="row logo text-center">
-            <img src="../imgs/logo.png" alt="Bebé Llorones Logo">
-        </div>
-        <div class="row titulos text-center">
-            <h1>Bahía Tutifruti</h1>
-            <h3>El lugar más dulce y divertido del universo.</h3>
+        <div class="lagrimas-magicas">
+            <div class="row logo text-center">
+                <img src="../imgs/logo.png" data-aos="zoom-in-down" alt="Bebé Llorones Logo">
+            </div>
+            <div class="row titulos text-center">
+                <h1 data-aos="zoom-in-up">Bahía Tutifruti</h1>
+                <h3 data-aos="zoom-in-up">El lugar más dulce y divertido del universo.</h3>
+            </div>
         </div>
     </header>
     <main class="contenido m-4">
         <div class="row">
-            <h2>¡Seamos amiguis!</h2>
+            <h2 data-aos="fade-right">¡Seamos amiguis!</h2>
             <p>Bahía Tutifruti es un mundo lleno de dulzura y diversión. En esta encantadora bahía, tenemos playas de azúcar, montañas de algodón de azúcar y ríos de jugo de frutas.</p>
             <p><strong>Nos encanta la frutilla, el ananá, coco, naranja, todas las frutas!</strong></p>
             <p>Acompáñanos en emocionantes aventuras mientras descubrimos los secretos más dulces de esta mágica bahía.</p>
@@ -50,7 +53,7 @@
                     <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
                         <div class="card d-flex flex-column justify-content-end">
                             <div class="card-img-personaje d-flex align-items-end">
-                                <img id="ella" src="../imgs/bbll/tutifruti-ella.png" class="mx-auto d-block" alt="Ella">
+                                <img id="ella" src="../imgs/bbll/tutifruti-ella.png" class="mx-auto d-block" data-aos="zoom-in" alt="Ella">
                             </div>
                             <div class="card-body">
                                 <h4 class="card-title">ELLA</h4>
@@ -61,7 +64,7 @@
                     <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
                         <div class="card d-flex flex-column justify-content-end">
                             <div class="card-img-personaje d-flex align-items-end">
-                                <img id="glam" src="../imgs/bbll/tutifruti-glam.png" class="mx-auto d-block" alt="Glam">
+                                <img id="glam" src="../imgs/bbll/tutifruti-glam.png" class="mx-auto d-block" data-aos="zoom-in" alt="Glam">
                             </div>
                             <div class="card-body">
                                 <h4 class="card-title">GLAM</h4>
@@ -72,7 +75,7 @@
                     <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
                         <div class="card d-flex flex-column justify-content-end">
                             <div class="card-img-personaje d-flex align-items-end">
-                                <img id="lem" src="../imgs/bbll/tutifruti-lem.png" class="mx-auto d-block" alt="Lem">
+                                <img id="lem" src="../imgs/bbll/tutifruti-lem.png" class="mx-auto d-block" data-aos="zoom-in" alt="Lem">
                             </div>
                             <div class="card-body">
                                 <h4 class="card-title">LEM</h4>
@@ -88,5 +91,9 @@
         <p><strong>¡Sumérgete en el mágico mundo de los Bebés Llorones y vive aventuras inolvidables!</strong></p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({easing:'ease-out-back', duration:2000});
+    </script>
 </body>
 </html>
