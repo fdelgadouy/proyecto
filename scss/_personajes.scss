@@ -15,12 +15,18 @@
                 &#lem {
                     @include size(220px, auto);
                 }
-                
+
+                                
+                &#pingui {
+                    @include size(150px, auto);
+                }
+
                 &#lady {
                     @include size(155px, auto);
                 }
                 
-                &#conie {
+                &#conie,
+                &#katie {
                     @include size(182px, auto);
                 }
                 
@@ -40,7 +46,8 @@
                 &#jiry,
                 &#lala,
                 &#caperucita,
-                &#cerdito {
+                &#cerdito,
+                &#papi {
                     @include size(230px, 340px);
                 }
                 
@@ -81,28 +88,28 @@
             }
         }
     } 
-    .carousel-item {
-        display: none;
-        transition: transform .6s ease-in-out;
-    }
-    
-    .carousel-item.active {
-        display: flex;
-    }
-    
-    @media (min-width: 768px) {
-        .carousel-item .col-md-6 {
-            flex: 0 0 50%;
-            max-width: 50%;
-        }
-    }
-    
-    @media (min-width: 992px) {
-        .carousel-item .col-lg-4 {
-            flex: 0 0 33.3333%;
-            max-width: 33.3333%;
-        }
+
+}
+.carousel-item {
+    display: none;
+    transition: transform .6s ease-in-out;
+}
+
+.carousel-item.active {
+    display: flex;
+}
+
+@media (min-width: 768px) {
+    .carousel-item .col-md-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
     }
 }
 
+@media (min-width: 992px) {
+    .carousel-item .col-lg-4 {
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+    }
+}
 
