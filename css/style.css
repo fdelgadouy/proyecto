@@ -194,6 +194,25 @@ header .logo img:hover {
 .personajes .card-body .contacto:hover {
   background-color: #61b3c3;
 }
+.personajes .carousel-item {
+  display: none;
+  transition: transform 0.6s ease-in-out;
+}
+.personajes .carousel-item.active {
+  display: flex;
+}
+@media (min-width: 768px) {
+  .personajes .carousel-item .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .personajes .carousel-item .col-lg-4 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+}
 
 footer {
   border-top: 13px solid #ff3c8f;

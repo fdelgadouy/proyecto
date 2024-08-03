@@ -81,8 +81,28 @@
             }
         }
     } 
+    .carousel-item {
+        display: none;
+        transition: transform .6s ease-in-out;
+    }
+    
+    .carousel-item.active {
+        display: flex;
+    }
+    
+    @media (min-width: 768px) {
+        .carousel-item .col-md-6 {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+    
+    @media (min-width: 992px) {
+        .carousel-item .col-lg-4 {
+            flex: 0 0 33.3333%;
+            max-width: 33.3333%;
+        }
+    }
 }
- 
-
 
 

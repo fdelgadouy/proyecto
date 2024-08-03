@@ -59,68 +59,147 @@
         </div>
         <section class="row personajes text-center m-4">
             <h2>Los personajes preferidos</h2>
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
-                        <div class="card d-flex flex-column justify-content-end">
-                            <div class="card-img-personaje d-flex align-items-end">
-                                <img id="dotie" src="./imgs/bbll/dotie.png" class="mx-auto d-block" data-aos="zoom-in"
-                                    alt="Dotie">
-                            </div>
-                            <div class="card-body">
-                                <h4 class="card-title">DOTIE</h4>
-                                <p class="card-text text-justify">Soy una bebé valiente y leal que siempre lleva un
-                                    disfraz de dálmata. Me encanta ayudar a mis amigos y enfrentar desafíos juntos.
-                                    Disfruto explorar, jugar y demostrar que con amistad y trabajo en equipo, todo es
-                                    posible.</p>
-                                <p>
-                                    <button type="button" class="btn btn-dark contacto" data-bs-toggle="modal"
-                                        data-bs-target="#contacta-personajes" data-bs-whatever="Dotie">¡Escríbeme y
-                                        vivamos aventuras!</button>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
-                        <div class="card d-flex flex-column justify-content-end">
-                            <div class="card-img-personaje d-flex align-items-end">
-                                <img id="conie" src="./imgs/bbll/conie.png" class="mx-auto d-block" data-aos="zoom-in"
-                                    alt="Conie">
-                            </div>
-                            <div class="card-body">
-                                <h4 class="card-title">CONIE</h4>
-                                <p class="card-text text-justify">Soy una bebé curiosa y llevo un disfraz de conejito.
-                                    Me encanta descubrir cosas nuevas y ayudar a mis amigos. Disfruto de la naturaleza,
-                                    los juegos y demostrar que con ingenio y trabajo en equipo, todo es posible.</p>
-                                <p>
-                                    <button type="button" class="btn btn-dark contacto" data-bs-toggle="modal"
-                                        data-bs-target="#contacta-personajes" data-bs-whatever="Conie">¡Escríbeme y
-                                        exploremos juntos!</button>
-                                </p>
+            <div id="carouselPersonajes" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="col-12 col-md-6 col-lg-4 d-flex align-items-stretch">
+                            <div class="card d-flex flex-column justify-content-end">
+                                <div class="card-img-personaje d-flex align-items-end">
+                                    <img id="dotie" src="./imgs/bbll/dotie.png" class="mx-auto d-block" data-aos="zoom-in"
+                                        alt="Dotie">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">DOTIE</h4>
+                                    <p class="card-text text-justify">Soy una bebé valiente y leal que siempre lleva un
+                                        disfraz de dálmata. Me encanta ayudar a mis amigos y enfrentar desafíos juntos.
+                                        Disfruto explorar, jugar y demostrar que con amistad y trabajo en equipo, todo es
+                                        posible.</p>
+                                    <p>
+                                        <button type="button" class="btn btn-dark contacto" data-bs-toggle="modal"
+                                            data-bs-target="#contacta-personajes" data-bs-whatever="Dotie">¡Escríbeme y
+                                            vivamos aventuras!</button>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
-                        <div class="card d-flex flex-column justify-content-end">
-                            <div class="card-img-personaje d-flex align-items-end">
-                                <img id="lady" src="./imgs/bbll/ladye.png" class="mx-auto d-block" data-aos="zoom-in"
-                                    alt="Lady">
+                    <div class="carousel-item">
+                        <div class="col-12 col-md-6 col-lg-4 d-flex align-items-stretch">
+                            <div class="card d-flex flex-column justify-content-end">
+                                <div class="card-img-personaje d-flex align-items-end">
+                                    <img id="conie" src="./imgs/bbll/conie.png" class="mx-auto d-block" data-aos="zoom-in"
+                                        alt="Conie">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">CONIE</h4>
+                                    <p class="card-text text-justify">Soy una bebé curiosa y llevo un disfraz de conejito.
+                                        Me encanta descubrir cosas nuevas y ayudar a mis amigos. Disfruto de la naturaleza,
+                                        los juegos y demostrar que con ingenio y trabajo en equipo, todo es posible.</p>
+                                    <p>
+                                        <button type="button" class="btn btn-dark contacto" data-bs-toggle="modal"
+                                            data-bs-target="#contacta-personajes" data-bs-whatever="Conie">¡Escríbeme y
+                                            exploremos juntos!</button>
+                                    </p>
+                                </div>
                             </div>
-                            <div class="card-body">
-                                <h4 class="card-title">LADY</h4>
-                                <p class="card-text text-justify">Soy una bebé encantadora con un disfraz de mariquita.
-                                    Me encanta cuidar de mis amigos y asegurarme de que todos estén felices. Disfruto de
-                                    la naturaleza, los juegos y demostrar que el amor y la amistad son lo más
-                                    importante.</p>
-                                <p>
-                                    <button type="button" class="btn btn-dark contacto" data-bs-toggle="modal"
-                                        data-bs-target="#contacta-personajes" data-bs-whatever="Lady">¡Escríbeme y
-                                        juguemos juntas!</button>
-                                </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-12 col-md-6 col-lg-4 d-flex align-items-stretch">
+                            <div class="card d-flex flex-column justify-content-end">
+                                <div class="card-img-personaje d-flex align-items-end">
+                                    <img id="lady" src="./imgs/bbll/ladye.png" class="mx-auto d-block" data-aos="zoom-in"
+                                        alt="Lady">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">LADY</h4>
+                                    <p class="card-text text-justify">Soy una bebé encantadora con un disfraz de mariquita.
+                                        Me encanta cuidar de mis amigos y asegurarme de que todos estén felices. Disfruto de
+                                        la naturaleza, los juegos y demostrar que el amor y la amistad son lo más
+                                        importante.</p>
+                                    <p>
+                                        <button type="button" class="btn btn-dark contacto" data-bs-toggle="modal"
+                                            data-bs-target="#contacta-personajes" data-bs-whatever="Lady">¡Escríbeme y
+                                            juguemos juntas!</button>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-12 col-md-6 col-lg-4 d-flex align-items-stretch">
+                            <div class="card d-flex flex-column justify-content-end">
+                                <div class="card-img-personaje d-flex align-items-end">
+                                    <img id="dotie" src="./imgs/bbll/katie.png" class="mx-auto d-block" data-aos="zoom-in"
+                                        alt="Dotie">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Katie</h4>
+                                    <p class="card-text text-justify">Soy una bebé valiente y leal que siempre lleva un
+                                        disfraz de dálmata. Me encanta ayudar a mis amigos y enfrentar desafíos juntos.
+                                        Disfruto explorar, jugar y demostrar que con amistad y trabajo en equipo, todo es
+                                        posible.</p>
+                                    <p>
+                                        <button type="button" class="btn btn-dark contacto" data-bs-toggle="modal"
+                                            data-bs-target="#contacta-personajes" data-bs-whatever="Katie">¡Escríbeme y
+                                            vivamos aventuras!</button>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-12 col-md-6 col-lg-4 d-flex align-items-stretch">
+                            <div class="card d-flex flex-column justify-content-end">
+                                <div class="card-img-personaje d-flex align-items-end">
+                                    <img id="conie" src="./imgs/bbll/papagallo.png" class="mx-auto d-block" data-aos="zoom-in"
+                                        alt="Conie">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">PAPI</h4>
+                                    <p class="card-text text-justify">Soy una bebé curiosa y llevo un disfraz de conejito.
+                                        Me encanta descubrir cosas nuevas y ayudar a mis amigos. Disfruto de la naturaleza,
+                                        los juegos y demostrar que con ingenio y trabajo en equipo, todo es posible.</p>
+                                    <p>
+                                        <button type="button" class="btn btn-dark contacto" data-bs-toggle="modal"
+                                            data-bs-target="#contacta-personajes" data-bs-whatever="Papi">¡Escríbeme y
+                                            exploremos juntos!</button>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="col-12 col-md-6 col-lg-4 d-flex align-items-stretch">
+                            <div class="card d-flex flex-column justify-content-end">
+                                <div class="card-img-personaje d-flex align-items-end">
+                                    <img id="lady" src="./imgs/bbll/pinguino.png" class="mx-auto d-block" data-aos="zoom-in"
+                                        alt="Lady">
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">PINGUI</h4>
+                                    <p class="card-text text-justify">Soy una bebé encantadora con un disfraz de mariquita.
+                                        Me encanta cuidar de mis amigos y asegurarme de que todos estén felices. Disfruto de
+                                        la naturaleza, los juegos y demostrar que el amor y la amistad son lo más
+                                        importante.</p>
+                                    <p>
+                                        <button type="button" class="btn btn-dark contacto" data-bs-toggle="modal"
+                                            data-bs-target="#contacta-personajes" data-bs-whatever="Pingui">¡Escríbeme y
+                                            juguemos juntas!</button>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselPersonajes" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselPersonajes" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </section>
         <div class="modal fade" id="contacta-personajes" tabindex="-1" aria-labelledby="contacta-personajesLabel"
@@ -145,7 +224,7 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                        <button type="button" class="btn btn-dark contacto">Enviar menaje</button>
+                        <button type="button" class="btn btn-dark contacto">Enviar mensaje</button>
                     </div>
                 </div>
             </div>
@@ -174,6 +253,7 @@
     <script>
         AOS.init({ easing: 'ease-out-back', duration: 2000 });
     </script>
+    <script src="./js/carrousel.js">
 </body>
 
 </html>
