@@ -10,7 +10,15 @@ body {
     background-image: url(../imgs/background.svg);
     background-position: bottom;
     background-repeat: repeat-x;
-    background-size: 2560px 45%;
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (max-width: 768px) {
+        background-size: 2560px 25%;    
+    }
+
+    /* Large devices */
+    @media only screen and (min-width: 769px) {
+        background-size: 2560px 45%;
+    }
 }
 h1, h2, h3, h4, footer,.menu-mundos {
     font-family: "Nunito", sans-serif;

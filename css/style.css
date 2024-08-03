@@ -10,7 +10,18 @@ body {
   background-image: url(../imgs/background.svg);
   background-position: bottom;
   background-repeat: repeat-x;
-  background-size: 2560px 45%;
+  /* Medium devices (landscape tablets, 768px and up) */
+  /* Large devices */
+}
+@media only screen and (max-width: 768px) {
+  body {
+    background-size: 2560px 25%;
+  }
+}
+@media only screen and (min-width: 769px) {
+  body {
+    background-size: 2560px 45%;
+  }
 }
 
 h1, h2, h3, h4, footer, .menu-mundos {
@@ -53,6 +64,7 @@ header {
   background-size: cover;
   box-shadow: 0 6px 10px -1px rgba(118, 117, 116, 0.52);
   text-align: center;
+  min-height: 340px;
 }
 header .lagrimas-magicas {
   width: 100%;
