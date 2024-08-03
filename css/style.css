@@ -23,6 +23,14 @@ h1, h2, h3, h4, footer, .menu-mundos {
   text-transform: uppercase;
 }
 
+button.btn.btn-dark.contacto {
+  background-color: #e875a8;
+  border: 0;
+}
+button.btn.btn-dark.contacto:hover {
+  background-color: #61b3c3;
+}
+
 /* Menu superior */
 .menu-mundos a, .menu-mundos button {
   margin: 5px;
@@ -163,18 +171,39 @@ header .logo img:hover {
   text-shadow: #e875a8 5px 0px 0px, #e875a8 4.90033px 0.993347px 0px, #e875a8 4.60531px 1.94709px 0px, #e875a8 4.12668px 2.82321px 0px, #e875a8 3.48353px 3.58678px 0px, #e875a8 2.70151px 4.20736px 0px, #e875a8 1.81179px 4.6602px 0px, #e875a8 0.849836px 4.92725px 0px, #e875a8 -0.145998px 4.99787px 0px, #e875a8 -1.13601px 4.86924px 0px, #e875a8 -2.08073px 4.54649px 0px, #e875a8 -2.94251px 4.04248px 0px, #e875a8 -3.68697px 3.37732px 0px, #e875a8 -4.28444px 2.57751px 0px, #e875a8 -4.71111px 1.67494px 0px, #e875a8 -4.94996px 0.7056px 0px, #e875a8 -4.99147px -0.291871px 0px, #e875a8 -4.83399px -1.27771px 0px, #e875a8 -4.48379px -2.2126px 0px, #e875a8 -3.95484px -3.05929px 0px, #e875a8 -3.26822px -3.78401px 0px, #e875a8 -2.4513px -4.35788px 0px, #e875a8 -1.53666px -4.75801px 0px, #e875a8 -0.560763px -4.96845px 0px, #e875a8 0.437495px -4.98082px 0px, #e875a8 1.41831px -4.79462px 0px, #e875a8 2.34258px -4.41727px 0px, #e875a8 3.17346px -3.86382px 0px, #e875a8 3.87783px -3.15633px 0px, #e875a8 4.4276px -2.32301px 0px, #e875a8 4.80085px -1.39708px 0px, #e875a8 4.98271px -0.415447px 0px;
   color: #fff;
 }
+.personajes .card-body .text-justify {
+  text-align: justify;
+}
+.personajes .card-body .contacto {
+  background-color: #e875a8;
+  border: 0;
+  font-weight: bold;
+}
+.personajes .card-body .contacto:hover {
+  background-color: #61b3c3;
+}
 
 footer {
   border-top: 13px solid #ff3c8f;
   background: rgb(232, 177, 204);
   background-image: url(../imgs/lagrimas.png), linear-gradient(0deg, rgb(232, 177, 204) 0%, rgb(238, 198, 219) 100%);
   background-size: 75px;
-  margin-top: 60px;
-  height: 50px;
+  margin-top: 80px;
+  height: 160px;
   text-align: center;
-  padding: 50px 0;
+  padding: 30px 0;
   font-size: 18px;
   font-weight: 800;
+}
+footer .ico-redes {
+  font-size: 1.5rem;
+  margin: 5px;
+}
+footer a {
+  color: #ff3c8f;
+}
+footer a:hover {
+  color: #e7629e;
 }
 
 /*# sourceMappingURL=style.css.map */
