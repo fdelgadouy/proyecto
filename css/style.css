@@ -42,6 +42,18 @@ button.btn.btn-dark.contacto:hover {
   background-color: #61b3c3;
 }
 
+.vid-youtube {
+  width: 100%;
+  min-width: 400px;
+  max-width: 800px;
+}
+.vid-youtube div {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+
 /* Menu superior */
 .menu-mundos a, .menu-mundos button {
   margin: 5px;
